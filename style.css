@@ -1,0 +1,48 @@
+body{
+    background-color: #ccc;
+    
+}
+
+.selections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+}
+
+
+.selection{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 20px;
+    font-size: 4rem;
+    transition: 100ms;
+}
+
+.selection:hover{
+transform: scale(1.4);
+}
+
+.results{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+.result-score{
+    color: #333;
+}
+.selection-btn{
+    color: #333;
+    font-size: 1rem;
+}
+.result-selection{
+    font-size: 3rem;
+}
+
+.selection:hover .selection-btn{
+    color: grey
+}
